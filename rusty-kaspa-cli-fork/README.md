@@ -91,6 +91,10 @@ cargo build --release --bin kapsad
 screen -dmS kaspad ./target/release/kaspad --utxoindex --rpclisten-borsh=default #wait a few hours and 20GB later
 ```
 
+The flag for utxoindex ensures that we can handle user wallet functions. Keep in mind that is speaks to unspent transaction outputs.
+
+The flag for rpclisten-borsch ensures that websocket Remote Proceudre Calls are enabled and accessible at the default local server 127.0.0.1.
+
 Then you could 
 ```bash
 ./target/release/kaspa-cli
