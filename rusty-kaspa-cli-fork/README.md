@@ -1,4 +1,8 @@
-To obtain this source for yourself:
+The directory cli is here for reference. 
+
+You need the full release to build and run the cli.
+
+In order to obtain this source for yourself:
 ```bash
 wget https://github.com/kaspanet/rusty-kaspa/archive/refs/tags/v0.15.2.tar.gz
 tar -xvf v0.15.2.tar.gz
