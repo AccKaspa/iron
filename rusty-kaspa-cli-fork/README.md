@@ -25,10 +25,13 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs  | sh -s -- -y
 
 Let's start off by taking a look at what the source looks like in action
 
-This directory is set up to be ready to build and run
+This directory is set up to be ready to build and run (assuming you downloaded and unzipped the release source)
+
+Do not run the cli directory in this repository. It will not build without the broader kaspa cargo.toml and project directory structure
+
+Ensure that you are in the cli directory of the kaspa source release; then:
 
 ```bash
-cd cli
 cargo build --release #wait
 ../target/release/kaspa-cli
 ```
